@@ -23,11 +23,11 @@ int main() {
     int sized = sizeof(d);
     int sizef = sizeof(f);
     
-    cout<<"size of a is:"<<sizea<<endl;
-    cout<<"size of b is:"<<sizeb<<endl;
-    cout<<"size of c is:"<<sizec<<endl;
-    cout<<"size of d is:"<<sized<<endl;
-    cout<<"size of f is:"<<sizef<<endl;
+    cout<<"size of a is:"<<sizea<< endl;
+    cout<<"size of b is:"<<sizeb<< endl;
+    cout<<"size of c is:"<<sizec<< endl;
+    cout<<"size of d is:"<<sized<< endl;
+    cout<<"size of f is:"<<sizef<< endl;
 
 
 }
