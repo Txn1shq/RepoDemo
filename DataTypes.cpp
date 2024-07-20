@@ -2,8 +2,8 @@
 using namespace std;
 
 int main() {
-    int a = 123;
-    cout<<a<<endl;
+    int v = 123;
+    cout<<v<<endl;    /* print integer a*/
 
     char b = 't';
     cout<<b<<endl;
@@ -17,7 +17,7 @@ int main() {
     float f = 1.2;
     cout<<f<<endl;
 
-    int sizea = sizeof(a);
+    int sizea = sizeof(v);
     int sizeb = sizeof(b);
     int sizec = sizeof(c);
     int sized = sizeof(d);
@@ -29,5 +29,9 @@ int main() {
     cout<<"size of d is:"<<sized<< endl;
     cout<<"size of f is:"<<sizef<< endl;
 
+    int t = 'a';
+    cout<<t<<endl;    /* type casting */
 
+    char ch = 98;
+    cout<<ch<<endl;
 }
