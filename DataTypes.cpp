@@ -17,6 +17,9 @@ int main() {
     float f = 1.2;
     cout<<f<<endl;
 
+    string s1 = "hey";
+    string s2 = "tanishq";
+
     int sizea = sizeof(v);
     int sizeb = sizeof(b);
     int sizec = sizeof(c);
@@ -35,7 +38,14 @@ int main() {
     char ch = 98;
     cout<<ch<<endl;    /* type casting */
 
-    char ch1 = 123456;
+    char ch1 = 97;
     cout<<ch1<<endl;
 
+    cout <<s1<<" "<<s2<<endl;
+
+    string str;
+    getline(cin, str);
+    cout<<str<<endl;
+
+    return 0;
 }
