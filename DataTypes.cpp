@@ -33,5 +33,9 @@ int main() {
     cout<<t<<endl;    /* type casting */
 
     char ch = 98;
-    cout<<ch<<endl;
+    cout<<ch<<endl;    /* type casting */
+
+    char ch1 = 123456;
+    cout<<ch1<<endl;
+
 }

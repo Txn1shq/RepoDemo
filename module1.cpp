@@ -2,10 +2,10 @@
 using namespace std;
 
 int main() {
+    int x;
+    cin>>x;
 
-    std::cout<<"namastey duniya"<<'\n';
-    cout<<"hey tanishq";
+    cout<<"the value of x is:"<<x<<endl;
 
     return 0;
-
 }
