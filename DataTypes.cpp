@@ -46,6 +46,15 @@ int main() {
     string str;
     getline(cin, str);
     cout<<str<<endl;
+     
+    int x, y;
+    cin>>x>>y;
 
+    cout<<"the value of x is:"<<x<<endl;
+    cout<<"the value of y is:"<<y<<endl;
+
+    string p1, p2;
+    cin>>p1>>p2;
+    cout<<p1<<" "<<p2<<endl;
     return 0;
 }

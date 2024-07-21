@@ -8,7 +8,7 @@ int main() {
     cout<<s[length - 1]<<endl;
 
 //string stores characters within itself
-//each data below is a char hence used single inverted commas
+//each data below is a char hence used single inverted commas 
 
     s[length -1] = 'k';
     cout<<s[length -1]<<endl;
