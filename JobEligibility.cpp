@@ -15,13 +15,11 @@ int main() {
     if(age<18) {
         cout<<"you are not eligible for job";
     }
-    else if(age>=18 && age<= 54) {
-        cout<<"you are eligible for the job"<<'\n';
-        int timespan= 55-age;
-        cout<<"you can work for "<<timespan<<" years only.";
-    }
-    else if(age>=55 && age <=57) {
-        cout<<"you are eligible but retirement soon";
+    else if(age<=57) {
+        cout<<"you are eligible for the job";
+        if(age>=55) {
+            cout<<" but retirement soon :("<<endl;
+        }
     }
     else if(age>57) {
         cout<<"retirement";
