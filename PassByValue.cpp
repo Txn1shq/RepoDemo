@@ -11,7 +11,7 @@ void kuchkar(int num) {
     cout<<num<<endl;
 }
 
-void kuchkar(string s) {
+void kuchkar(string s) {       //attach '&' here to get the original copy here
     s[0] = 't';
     cout<<s<<endl;
 
