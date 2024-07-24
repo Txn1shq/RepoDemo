@@ -11,5 +11,12 @@ int main() {
     cin>> num1>>num2;
     int res = sum(num1, num2);
     cout<<res<<endl;
+
+    int num4 = min(num1, num2);
+    cout<<num4<<endl;
+
+    int num5 = max(num1, num2);
+    cout<<num5<<endl;
+
     return 0;
 }
